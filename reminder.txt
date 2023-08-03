@@ -23,7 +23,7 @@ useEffect(() => {
                    console.log('success')
                 }
             } catch {
-                alert('Please check your internet connection!')
+                console.log('Please check your internet connection!')
             }
         }
         fetchData()
@@ -55,7 +55,7 @@ const handleSubmit = async () => {
                 alert(log.context + '!')
             }
         } catch {
-            alert('Please check your internet connection!')
+            console.log('Please check your internet connection!')
         }
 }
 
@@ -80,6 +80,6 @@ const handle = async () => {
                 alert(log.context + '!')
             }
         } catch {
-            alert('Please check your internet connection!')
+            console.log('Please check your internet connection!')
         }
 }
