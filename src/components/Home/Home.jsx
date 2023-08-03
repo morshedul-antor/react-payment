@@ -1,5 +1,5 @@
 export default function Home() {
-    const api = 'http://127.0.0.3:8000/api/v1'
+    const api = process.env.REACT_APP_API_URL
 
     const handleSubmit = async () => {
         try {
